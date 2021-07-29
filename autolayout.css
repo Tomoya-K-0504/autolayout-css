@@ -1,0 +1,44 @@
+.inner {
+    position: absolute;
+    width: 998px;
+    height: 618px;
+    left: calc(50% - 998px/2);
+    top: calc(50% - 618px/2);
+
+    background: #EBEBEB;
+}
+
+.cards {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 786px;
+    height: 336px;
+    left: calc(50% - 786px/2);
+    top: calc(50% - 336px/2);
+
+    background: #F5F5F5;
+}
+
+.card {
+    position: static;
+    width: 220px;
+    height: 336px;
+    left: calc(50% - 220px/2 + 283px);
+    top: calc(50% - 336px/2);
+
+    background: #707070;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    /* margin: 0px 63px; */
+}

@@ -1,0 +1,32 @@
+.inner {
+    width: 998px;
+    height: 616px;
+
+    position: absolute;
+    left: calc(50% - 998px/2);
+    top: calc(50% - 618px/2);
+
+    background: #EBEBEB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 728px;
+    height: 299px;
+
+    background: #F4F6FF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 220px;
+    height: 280px;
+
+    background: #62656C;
+}
